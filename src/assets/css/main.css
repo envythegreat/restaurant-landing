@@ -1,7 +1,7 @@
 /* var text-decoration */
 @font-face {
   font-family: myfont;
-  src: url(../fonts/ufonts.com_tw-cen-mt.ttf);
+  src: url(../font/ufonts.com_tw-cen-mt.ttf);
 }
 /*--
     Common Css
@@ -60,7 +60,7 @@ a:active {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/overlay-pattern.png") #000000;
+  background: url("../img/overlay-pattern.png") #000000;
   opacity: 0.3;
 }
 /*--
@@ -133,7 +133,7 @@ a:active {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/overlay-pattern.png") #000000;
+  background: url("../img/overlay-pattern.png") #000000;
   opacity: 0.3;
 }
 /*--
@@ -228,6 +228,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 }
 #slider .block {
   padding: 0px 40px;
+  
 }
 #slider .block .title {
   padding: 0px ;
@@ -236,6 +237,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   padding-top: 30px;
   position: relative;
   text-align: center;
+  
 }
 #slider .block .owl-carousel img {
   padding-right: 30px;
@@ -282,7 +284,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #blog {
   padding-top: 75px;
   padding-bottom: 100px;
-  background: url("../images/blog/blog-bg.jpg");
+  background: url("../img/blog/blog-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -297,7 +299,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/overlay-pattern.png") #000000;
+  background: url("../img/overlay-pattern.png") #000000;
   opacity: 0.3;
 }
 #blog .block .heading {
@@ -492,7 +494,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #subscribe {
   padding: 100px 0px;
   text-align: center;
-  background: url("../images/subscribe-bg.jpg");
+  background: url("../img/subscribe-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -507,7 +509,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/overlay-pattern.png") #000000;
+  background: url("../img/overlay-pattern.png") #000000;
   opacity: 0.3;
 }
 #subscribe .block h1.heading {

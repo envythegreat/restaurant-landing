@@ -29,7 +29,4 @@ $(document).ready(function(){
          changeHash: true,
          scrollSpeed: 1200
     });
-//Initiat WOW JS
-    new WOW().init();
-
 });
