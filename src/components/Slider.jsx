@@ -1,14 +1,16 @@
 import React from "react";
-import OwlCarousel from 'react-owl-carousel';
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination } from "swiper";
 import img1 from "@assets/img/slider/slider-img-1.jpg";
 import img2 from "@assets/img/slider/slider-img-2.jpg";
 import img3 from "@assets/img/slider/slider-img-3.jpg";
 import img4 from "@assets/img/slider/slider-img-4.jpg";
 
 const Slider = () => {
-
   const sliderItems = [
     {
       id: 1,
@@ -57,22 +59,30 @@ const Slider = () => {
                   Featured <span>Works</span>
                 </h3>
               </div>
-              <OwlCarousel id="owl-example" className="owl-carousel owl-theme" loop margin={10}>
-                {
-                  sliderItems.map((item) => {
-                    return (
-                      <div key={item.id} className="item">
-                        <img
-
-                          className="img-responsive"
-                          src={item.imgSrc}
-                          alt={item.alt}
-                        />
-                      </div>
-                    );
-                  })
-                }
-              </OwlCarousel>
+              <Swiper
+                slidesPerView={4}
+                // centeredSlides={true}
+                spaceBetween={30}
+                grabCursor={true}
+                pagination={{
+                  clickable: true,
+                }}
+                modules={[Pagination]}
+                id="owl-example"
+                className="owl-carousel owl-theme"
+              >
+                {sliderItems.map((item) => {
+                  return (
+                    <SwiperSlide key={item.id} className="item">
+                      <img
+                        className="img-responsive"
+                        src={item.imgSrc}
+                        alt={item.alt}
+                      />
+                    </SwiperSlide>
+                  );
+                })}
+              </Swiper>
             </div>
           </div>
         </div>
