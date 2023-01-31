@@ -12,30 +12,30 @@ import photo4 from "@assets/img/photo/photo-4.jpg";
 const Footer = () => {
   return (
     <section id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="block wow fadeInLeft" data-wow-delay="200ms">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="block wow fadeInLeft" data-wow-delay="200ms">
               <h3>
                 CONTACT <span>INFO</span>
               </h3>
-              <div class="info">
+              <div className="info">
                 <ul>
                   <li>
                     <h4>
-                      <i class="fa "><Phone /></i>Telefone
+                      <i className="fa "><Phone /></i>Telefone
                     </h4>
                     <p>(000) 123 456 78- (000) 123 4567 89</p>
                   </li>
                   <li>
                     <h4>
-                      <i class="fa "> <Map /> </i>Address
+                      <i className="fa "> <Map /> </i>Address
                     </h4>
                     <p>2046 Blue Spruce Lane Laurel Canada</p>
                   </li>
                   <li>
                     <h4>
-                      <i class="fa"><Mail /></i>E mail
+                      <i className="fa"><Mail /></i>E mail
                     </h4>
                     <p>rest@gmail.com - rest@mail.ru</p>
                   </li>
@@ -44,12 +44,12 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="block wow fadeInLeft" data-wow-delay="700ms">
+          <div className="col-md-4">
+            <div className="block wow fadeInLeft" data-wow-delay="700ms">
               <h3>
                 LATEST <span>BLOG POSTS</span>
               </h3>
-              <div class="blog">
+              <div className="blog">
                 <ul>
                   <li>
                     <h4>
@@ -74,9 +74,9 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="block wow fadeInLeft" data-wow-delay="1100ms">
-              <div class="gallary">
+          <div className="col-md-4">
+            <div className="block wow fadeInLeft" data-wow-delay="1100ms">
+              <div className="gallary">
                 <h3>
                   PHOTO <span>STREAM</span>
                 </h3>
@@ -103,19 +103,19 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div class="social-media-link">
+              <div className="social-media-link">
                 <h3>
                   Follow <span>US</span>
                 </h3>
                 <ul>
                   <li>
                     <a href="#">
-                      <i class="fa"><Facebook /></i>
+                      <i className="fa"><Facebook /></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa"><Instagram /> </i>
+                      <i className="fa"><Instagram /> </i>
                     </a>
                   </li>
                 </ul>
