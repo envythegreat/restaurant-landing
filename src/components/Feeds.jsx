@@ -26,7 +26,7 @@ const Feeds = () => {
             style={{ padding: "5px", marginBottom: "10px", paddingBottom: 0 }}
           >
             <a
-              href="https://www.instagram.com/mooma"
+              href="#"
               target="_blank"
               rel="noopener"
               title="@mooma"
@@ -65,7 +65,7 @@ const Feeds = () => {
               <div className="sbi_photo_wrap">
                 <a
                   className="sbi_photo sbi_imgLiquid_bgSize sbi_imgLiquid_ready"
-                  href="https://www.instagram.com/p/Cn6bqi2tY8g/"
+                  href="#"
                   target="_blank"
                   rel="noopener"
                   data-full-res="https://scontent-mad1-1.cdninstagram.com/v/t51.29350-15/327161021_1932818397244323_4096243377028281383_n.jpg?_nc_cat=101&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=q-IJyMtSgvUAX_Tpg0I&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfA7WIJBifd5-sZOC2vbmFq7JyTvF9fQvuvxxo2VZMcdWQ&amp;oe=63DEF431"
@@ -95,7 +95,7 @@ const Feeds = () => {
               <div className="sbi_photo_wrap">
                 <a
                   className="sbi_photo sbi_imgLiquid_bgSize sbi_imgLiquid_ready"
-                  href="https://www.instagram.com/p/Cn38meQNB8D/"
+                  href="#"
                   target="_blank"
                   rel="noopener"
                   data-full-res="https://scontent-mad1-1.cdninstagram.com/v/t51.29350-15/327182901_2968566426620706_5395286531795325704_n.jpg?_nc_cat=107&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=k0WOA2d6pAwAX9_-A1M&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfCoWAl_fUxjjW7j0zyG_km0_YSK6x3xiS9UCYWVmUjZhw&amp;oe=63DFF6F1"
@@ -142,7 +142,7 @@ const Feeds = () => {
               <div className="sbi_photo_wrap">
                 <a
                   className="sbi_photo sbi_imgLiquid_bgSize sbi_imgLiquid_ready"
-                  href="https://www.instagram.com/p/Cn1YN1NNy60/"
+                  href="#"
                   target="_blank"
                   rel="noopener"
                   data-full-res="https://scontent-mad1-1.cdninstagram.com/v/t51.29350-15/327151215_696215045324458_1988750271434957918_n.jpg?_nc_cat=109&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=O1m3e_UPZhoAX_v5xNE&amp;_nc_oc=AQluSXkVtg1I_3x7ojjAZycRVCglDRQuOdRsDab00a4akrMqmT3wSHQWbFMHkTapnA4&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfDAvVpEicTPHaWdEkZYbULDYvNa7s89viA_xoG3DZ2WoA&amp;oe=63DE5563"
@@ -194,7 +194,7 @@ const Feeds = () => {
               <div className="sbi_photo_wrap">
                 <a
                   className="sbi_photo sbi_imgLiquid_bgSize sbi_imgLiquid_ready"
-                  href="https://www.instagram.com/p/CnoU_Kotk-c/"
+                  href="#"
                   target="_blank"
                   rel="noopener"
                   data-full-res="https://scontent-mad1-1.cdninstagram.com/v/t51.29350-15/326270150_181850681136058_9073018218231253628_n.jpg?_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=G06dMnlccqAAX-wGGxP&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfAKwb7J3Y3NLp8cQwSc0g22sgUabdjHkuTvTTltzUUdyQ&amp;oe=63DF9A95"
@@ -225,7 +225,7 @@ const Feeds = () => {
               <div className="sbi_photo_wrap">
                 <a
                   className="sbi_photo sbi_imgLiquid_bgSize sbi_imgLiquid_ready"
-                  href="https://www.instagram.com/p/Cnlq7lDtURT/"
+                  href="#"
                   target="_blank"
                   rel="noopener"
                   data-full-res="https://scontent-mad1-1.cdninstagram.com/v/t51.29350-15/325876329_1622118781542425_3507405620002792850_n.jpg?_nc_cat=100&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=gqT9QhnX1a4AX9O-CNZ&amp;_nc_oc=AQmVbIVi7vxg-uG2WZpNvZVWCSwmZRminmIgAiOR0zgSaO3RuPdQbuW39krVL4PDVP0&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfC2d2WSLYlSsMDGak0NCZmUTm3wUM8W8OrFq8Y81Yz_Qg&amp;oe=63DECB60"
@@ -255,7 +255,7 @@ const Feeds = () => {
               <div className="sbi_photo_wrap">
                 <a
                   className="sbi_photo sbi_imgLiquid_bgSize sbi_imgLiquid_ready"
-                  href="https://www.instagram.com/p/CnjL-0VLrUV/"
+                  href="#"
                   target="_blank"
                   rel="noopener"
                   data-full-res="https://scontent-mad1-1.cdninstagram.com/v/t51.29350-15/325581233_1369186843850421_3261814875699625967_n.jpg?_nc_cat=105&amp;ccb=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=CE79DpmI7dkAX9poxn-&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfBu8LxwiHicDsHhDETl1VTRKuLLTCOBebm5A6nHxeAP0A&amp;oe=63DF21A3"

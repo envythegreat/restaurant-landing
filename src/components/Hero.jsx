@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className="c-page" id="Sobre">
       <header className="c-page__header">
-        <h1 className="c-page__header-title">Sidreria / Restaurant</h1>
+        <h1 className="c-page__header-title">Masia / Restaurant</h1>
         <p>Gaudeix d’un bon àpat</p>
 
         <picture className="c-page__banner-top">
@@ -396,7 +396,7 @@ const Hero = () => {
 
           <li>
             {/* <!-- <a target="_blank" href=""> --> */}
-            <a target="_blank" href="https://www.mooma.cat/qr">
+            <a target="_blank" href="#">
               <i>
                 <svg
                   className="svg__menu"
@@ -432,7 +432,7 @@ const Hero = () => {
           <li>
             <a
               target="_blank"
-              href="https://mooma.cat/wp-content/uploads/2021/11/pastissos-per-encàrrec.pdf"
+              href="#"
             >
               <i>
                 <svg
@@ -466,7 +466,7 @@ const Hero = () => {
           <li>
             <a
               target="_blank"
-              href="https://mooma.cat/wp-content/uploads/2023/01/MENÚ-CALÇOTADA-CATALÀ.pdf"
+              href="#"
             >
               <i>
                 <svg
@@ -564,7 +564,7 @@ const Hero = () => {
       </section>
 
       <button
-        onClick={() => window.open('https://mooma.myrestoo.net/ca/reservar#new_tab','_self')}
+        onClick={() => window.open('#','_self')}
         className="e-btn__reserva"
       >
         RESERVAR TAULA

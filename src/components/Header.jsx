@@ -13,13 +13,13 @@ const Header = () => {
   return (
     <>
       <header className="header" id="header">
-        <div className="header__top">
+        <div className="header__top" style={{backgroundColor:'#D58E34'}}>
           <div className="header__top-container">
             <nav className="header__top-lang header__top-lang--ca">
               <ul>
                 <li>
                   <p>
-                    <a href="h#" className="item-ca">
+                    <a href="#" className="item-ca">
                       CAT
                     </a>
                   </p>
@@ -74,7 +74,7 @@ const Header = () => {
                   </li> */}
                   <li className="page_item page-item-10 current_page_item">
                     <a
-                      href="https://mooma.cat/sidreria-restaurant/"
+                      href="#"
                       aria-current="page"
                     >
                       Sidreria / Restaurant
@@ -90,7 +90,7 @@ const Header = () => {
                     <a href="#Social">Social</a>
                   </li>
                   <li className="page_item page-item-21">
-                    <a href="https://mooma.cat/contacte/">Contacte</a>
+                    <a href="#">Contacte</a>
                   </li>
                 </ul>
               </div>
@@ -99,7 +99,7 @@ const Header = () => {
           <div className="header__btns">
             <ul>
               <li>
-                <a href="https://mooma.cat/wishlist" className="btn-cor">
+                <a href="#" className="btn-cor">
                   <i>
                     <svg
                       className="svg__favorit"
@@ -115,7 +115,7 @@ const Header = () => {
 
               <li>
                 <a
-                  href="https://mooma.cat/?s="
+                  href="#"
                   className="btn-search"
                   id="js-btn-search"
                 >
@@ -133,7 +133,7 @@ const Header = () => {
               </li>
 
               <li>
-                <a href="https://mooma.cat/cistella/" id="js-btn-cart">
+                <a href="#" id="js-btn-cart">
                   <i>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
