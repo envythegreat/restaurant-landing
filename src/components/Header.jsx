@@ -1,7 +1,5 @@
 import React from "react";
 
-import logo from "@assets/img/logo.png";
-import header from "@assets/img/header.jpg";
 
 const Header = () => {
   const navItems = [
