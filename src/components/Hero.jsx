@@ -66,7 +66,7 @@ const Hero = () => {
       <section className="c-icones-serveis" id="js-c-icones-serveis">
         <ol>
           <li>
-            <a data-fancybox-trigger="gal">
+            <a >
               <i>
                 <svg
                   className="svg_espais"
