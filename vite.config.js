@@ -18,6 +18,13 @@ export default defineConfig({
   define: {
     global: 'globalThis'
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        includePaths: ['node_modules', './src/assets']
+      }
+    },
+  },
   resolve: {
     alias: [
       {

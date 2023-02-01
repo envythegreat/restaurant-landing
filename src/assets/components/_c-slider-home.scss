@@ -1,0 +1,255 @@
+.c-slider-home {
+	
+	margin:0 auto;
+	overflow:hidden;
+	// max-width: 1920px;
+	figure , picture  {
+		height: 100%;
+
+		figcaption , .figcaption {
+			
+			color:$branding_white;
+
+			h2 , h3 , p {
+				margin:0;
+				padding-bottom: .5em;
+			}
+			h2 {
+				line-height: 1em;
+				font-size: 4vw;
+				font-weight: $font-weight-semi-bold;
+				@media screen and (max-width: $mobile_px) {
+					font-size: 8vw;
+					padding-bottom:5px;
+				}
+			}
+			h3 {
+				font-size: 2.5vw;
+				padding-bottom: .25em;
+				@media screen and (max-width: $mobile_px) {
+					font-size: 5vw;
+				}
+			}
+			p {
+				font-size: 2vw;
+				@media screen and (max-width: $mobile_px) {
+					font-size: 4vw;
+					padding:0;
+				}
+			}
+
+			&:before {
+				content:("");
+				background-color:rgba(#000,.4);
+				width: 100%;
+				height:100%;
+				position: absolute;
+				z-index: -1;
+
+			}
+
+			button {
+				background: transparent;
+				border:1px solid #FFF;
+				color:#FFF;
+				padding:.8em 2em;
+				margin-top: 20px;
+				background-color:rgba(#000,.2);
+				cursor: pointer;
+				font-size: 1.2vw;
+				transition: 0.1s;
+				&:hover {
+					color:$branding_black;
+					background-color:rgba(#FFF,.8);
+				}
+				@include mobile {
+					font-size: 1.8vh;
+					margin-bottom: 8px;
+				}
+			}
+			
+
+
+			position:absolute;
+			display: flex;
+			z-index: 100;
+			top:0%;
+			left:0%;
+			width: 50%;
+			height:100%;
+
+			@include mobile {
+				width: 100%;
+				height:50%;
+				top:50%;
+			}
+			> div {
+				margin:auto 5%;
+			}
+			
+			svg {
+				fill:#FFF;
+				position:relative;
+				margin-top: -30px;
+				max-width: 400px;
+				float:right;
+				@include mobile {
+					margin-top: 0;
+				}
+			}
+		}
+		
+		img {
+			animation: scale-image-banner 6.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+			width: 100%;
+			max-width: 100%;
+			max-height:1000px;
+			object-fit: cover;
+			transition: 2s;
+			
+			@include mobile {
+				height:60vh;
+			}
+		}
+	}
+	.slick-current img {
+		animation: scale-up-center 6.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+
+	}
+	@keyframes scale-up-center {
+		0% {
+			transform: scale(1.2);
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
+	@keyframes scale-image-banner {
+		0% {
+			transform: scale(1);
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
+	.slick-current figcaption ,
+	.slick-current .figcaption 
+
+	{
+
+		&:before {
+			animation: open-background 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+			animation-delay: .5s;
+		}
+		
+		> div {
+			animation: e-animation-text-focus-in-100 2.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+			animation-delay: .5s;
+		}
+
+		@keyframes open-background {
+			0% {
+				transform: translateX(-100%);
+			}
+			100% {
+				transform: translateX(0%);
+
+			}
+		}
+
+	}
+
+	
+	&__title {
+		position:absolute;
+		z-index: 100;
+		font-size:8vw;
+		color:#FFF;
+		opacity: .50;
+		margin-left: .2%;
+		line-height: 1em;
+		width: 80%;
+		@extend .e-animation-text-focus-in !optional;
+		@include mobile {
+			font-size: 9vw;
+			width: 90%;
+		}
+	}
+	&__logo {
+		position:absolute;
+		z-index: 100;
+		bottom:10%;
+		left:5%;
+		#svg__logo-banner {
+			width: 25vw;
+			path {
+				fill:#FFF;
+			}
+		}
+	}
+
+	
+	.slick-dots {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		text-align: center;
+		// border: 5px solid red;
+		height: 100%;
+		width: 50px;
+		right: 0;
+		top:0%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		
+		li {
+
+			position: relative;
+			display: block;
+			width: 20px;
+			height: 20px;
+			margin: 0 5px;
+			padding: 0;
+			cursor: pointer;
+			padding:0;
+			button {
+				margin:0;
+				padding:0;
+				border-radius:50%;
+				&:before {
+					font-family: 'slick';
+					font-size: 12px;
+					line-height: 20px;
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 30px;
+					height: 30px;
+					content: '•';
+					text-align: center;
+					opacity: 1;
+					color: #FFF;
+					-webkit-font-smoothing: antialiased;
+				}
+				&:hover {
+					&:before {
+						color:$branding_green;
+					}
+				}
+			}
+			&.slick-active {
+				button {
+					&:before {
+						color:$branding_green;
+					}
+				}
+			}
+		}
+	}
+}
+

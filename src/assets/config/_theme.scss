@@ -1,0 +1,51 @@
+// General border box, que no suporta normalize.css
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+// https://css-tricks.com/box-sizing/ 
+// Millors practiques per als 'pseudo elements'
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+  
+body {
+	font-family: $Poppins ;
+	font-weight: 300;
+}
+h1 , h2 , h3 , h4 , h5 , h6 {
+	// font-family: 'Alegreya Sans', sans-serif;
+	// font-weight: 400;
+	font-weight: $font-weight-medium ;
+}
+p {
+	line-height: 1.6em;
+}
+
+li {
+	line-height: 1.4em;
+}
+
+b , strong {
+	font-weight: $font-weight-semi-bold;
+}
+
+a {
+	color:$branding_black;
+}
+
+// no suporta normalize.css, queda el defecte pel browser
+figure {
+	margin:0;
+	padding:0;
+}
+
+img {
+	max-width: 100%;
+	height:auto;
+} 

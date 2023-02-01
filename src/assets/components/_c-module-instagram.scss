@@ -1,0 +1,108 @@
+.c-module-instagram {
+	@include reset_list();
+	clear:both;
+	overflow:hidden;
+	display: block;
+	margin:4em 0 4em;
+	&:before {
+		content:("");
+		width: 80%;
+		height:1px;
+		background-color:#dddddd;
+		display: block;
+		margin:25px 10%;
+	}
+	header {
+		text-align: center;
+		margin:4em 0 2em;
+	}
+	&__container {
+		@extend .container-fluid !optional;
+		padding-right: .5em;
+		padding-left: .5em;
+		&-row  ol {
+			@extend .row !optional;
+			li {
+				width:20%;
+				outline: none;
+				@include mobile {
+					width:50%;
+				}
+				&:hover {
+					figcaption {
+						opacity: 1;
+						transition: 1s;
+						transform:scale(1);
+					}
+				}
+				figure {
+					padding:1em;
+					transform: scale(1);
+					position:relative;
+
+					img {
+						object-fit: cover;
+						padding:1em;
+						// width: 300px !important;
+						// height:300px !important;
+						// border:1px solid red;
+
+					}
+					figcaption {
+						transition: .5s;
+						opacity: 0;
+						transform:scale(0);
+						position:absolute;
+						top:1em;
+						width:calc( 100% - 2em );
+						display: flex;
+						justify-content: center;
+						flex-direction: column;
+						height:calc( 100% - 2em );
+						background: rgba(#000,.5);
+
+						a {
+							text-decoration:none;
+							padding:0 1.5em;
+							color:#FFF;
+							transition: .8s;
+							outline: none;
+							i {
+								transition: .8s;
+							}
+							&:hover {
+								color:red;
+								i {
+									svg {
+										path {
+											fill:red;
+										} 
+									}
+								}
+							}
+							span {
+								margin-left: .3em;
+								transform: translateY(0px);
+								position:absolute;
+							}
+						}
+						div {
+							margin:auto;
+							i {
+								font-style: normal;
+							}
+							svg {
+								width:20px;
+								height:20px;
+								path {
+									fill:#FFF;
+
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}	
+}

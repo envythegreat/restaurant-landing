@@ -1,0 +1,92 @@
+.c-products , .c-products-top {
+	margin:2em 0 4em;
+
+	header {
+			padding-bottom:  1.5em;
+	}
+
+	@include reset_list();
+
+	&__container {
+		@extend .container-fluid !optional;	
+		padding-right: .5em;
+		padding-left: .5em;
+		&-row {
+			@extend .row !optional;
+			 li {
+				width:20%;
+				
+				@media screen and (max-width: $desktop_px){
+					width: 33.33%;
+				}
+
+				@include mobile {
+					width: 50%;
+				}
+				figure {
+					padding:0em;
+					transform: scale(1);
+					position:relative;
+
+
+					img {
+						transition:.8s;
+						width: 100%;
+						&:hover {
+							opacity: 1;
+							 filter: sepia(0) brightness(110%);
+							 @extend .e-shadow-drop-3-center !optional;
+						}
+						
+					}
+
+					figcaption {
+						h3 ,h2 {
+							color:$branding_gray;
+							font-weight: $font-weight-medium;
+							margin:0.5em 0;
+							font-size: small;
+						}
+						p {
+							margin-top: .5em;
+						}
+					}
+				}
+				&.type-product  {
+						padding:1em;
+				}
+			}
+		}
+	}
+
+	&__offer {
+		position:absolute;
+		z-index: 1;
+		top:2em;
+		left:1em;
+		background-color:$branding_green;
+		color:#FFF;
+		display: block;
+		padding:.5em 2em .5em 1em;
+	}
+	
+	&__price {
+		&-offer {
+			 text-decoration:line-through;
+			 margin-right: .5em;
+			 font-size: small;
+		}
+	}
+	&__title-description-cat {
+		text-align: center;
+		font-weight:$font-weight-light;
+		font-size: 1.1em;
+		line-height: 1.5em;
+		max-width: 80%;
+		margin:2em auto 0em;
+		padding-bottom: 4em;
+		position: relative;
+		border-bottom:1px solid #EFEFEF;
+		
+	}
+}

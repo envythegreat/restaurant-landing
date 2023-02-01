@@ -1,0 +1,33 @@
+
+
+.fancybox-is-modal {
+
+	.fancybox-slide--current .animated-modal,
+	.fancybox-slide--current .animated-modal h2,
+	.fancybox-slide--current .animated-modal p {
+	  transform: translateY(0);
+	  opacity: 1;
+	}
+
+	/* Reveal content with different delays */
+	.fancybox-slide--current .animated-modal h2 {
+	  transition-delay: .1s;
+	}
+
+	.fancybox-slide--current .animated-modal p {
+	  transition-delay: .3s;
+	}
+
+	&.fancybox-is-open .fancybox-bg {
+	    opacity: .71;
+	    transition-timing-function: cubic-bezier(.22,.61,.36,1);
+	}
+
+	.fancybox-bg {
+	    background: #1e1e1e;
+	    opacity: 0;
+	    transition-duration: inherit;
+	    transition-property: opacity;
+	    transition-timing-function: cubic-bezier(.47,0,.74,.71);
+	}
+}

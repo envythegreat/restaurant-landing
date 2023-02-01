@@ -1,0 +1,29 @@
+.woosw-list {
+	display: block;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	table {
+	}
+	.woosw-actions {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		text-align: center;
+		justify-content: center !important;
+		&.woosw-share {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+	}
+}
+.woosw-list table.woosw-content-items .woosw-content-item .woosw-content-item--image img 
+{
+    
+    object-fit: contain;
+}
+.woosw-area .woosw-inner .woosw-content .woosw-content-mid table.woosw-content-items .woosw-content-item .woosw-content-item--image img {
+   object-fit: contain;
+}
+

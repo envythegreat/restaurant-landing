@@ -1,0 +1,77 @@
+.c-contacte {
+	@include grid-container();
+	// margin-top: 2em;
+	a {
+		color:$branding_black;
+	}
+	max-width: $tablet_px;
+	&__form {
+		
+		padding-right:1.5em;
+		padding-left: 1.5em;
+		p {
+			margin:.7em 0;
+		}
+	}
+	fieldset {
+		border:0;
+		padding:0;
+
+	}
+	legend {
+		font-size: .9em;
+		display: block;
+		padding:2em 0 0 0;
+	}
+	input {
+		width: 100%;
+		display: block;
+		padding:12px 8px;
+		border:1px solid $branding_black;
+		box-sizing: border-box;
+		border-radius:0;
+		&[type='checkbox']{
+			display: inline-block;
+			width: auto;
+			margin-right: 10px;
+		}
+
+	}
+	textarea {
+		width: 100%;
+		display: block;
+		padding:12px 8px;
+		height:130px;
+		border:1px solid $branding_black;
+		box-sizing: border-box;
+		border-radius:0;
+
+	}
+	button {
+		border:0;
+		background-color:transparent;
+		border:2px solid $branding_black;
+		color:#FFF;
+		padding:8px 40px;
+		display: block;
+		margin:1.8em 0;
+		cursor: pointer;
+		transition: .3s;
+		color:$branding_black;
+		border-radius:0px;
+		width: 100%;
+		&:enabled {
+			&:hover {
+				background-color:$branding_black;
+				color:#FFF;
+			}
+		}
+		&:disabled {
+			opacity: 0.3;
+      cursor: default;
+		}
+	}
+	&__recaptcha  {
+		margin:1.2em 0 0 0;
+	}
+}

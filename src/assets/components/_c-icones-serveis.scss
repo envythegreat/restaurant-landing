@@ -1,0 +1,70 @@
+.c-icones-serveis {
+	@include reset_list();
+	@extend .grid-container !optional;
+	
+	padding-right: .5em;
+	padding-left: .5em;
+	@include mobile {
+		max-width: 100%;
+		padding:0;
+	}
+	a {
+		text-decoration: none;
+		
+		display: block;
+		&:hover {
+			svg {
+				path {
+					fill: $branding_white;
+				}
+				circle {
+					fill:$branding_black;
+				}
+				@extend .e-flip-vertical-right !optional;
+			}
+		}
+		svg {
+			transition: 1s transform;
+		}
+	}
+	ol {
+		@extend .row !optional;
+		max-width: 90%;
+		margin:0 auto;
+		justify-content: center;
+		li {
+			@extend .col-sm-4 !optional;
+			@extend .col-xs-6 !optional;
+	   
+	    @media screen and (min-width:$mobile-px){
+	    	 // flex-basis: 20%;
+	    	 // max-width: 20%;
+	    	 flex:1;
+	    }
+
+	    @include mobile {
+	    	 flex-basis: 50%;
+	    	 max-width: 50%;
+	    }
+
+			text-align: center;
+			margin-top: 1em;
+
+			i {
+				margin:0;
+				svg {
+					max-width: 100%;
+					@include mobile {
+						max-width: 80%;
+					}
+
+				}
+			}
+			p {
+				font-size:1.1em;
+				margin-top: .5em;
+				line-height: 1.3em;
+			}
+		}
+	}
+}

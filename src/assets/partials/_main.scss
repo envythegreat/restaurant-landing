@@ -1,0 +1,33 @@
+.main {
+	min-height: 80vh;
+	animation: fadeinMain .8s;
+
+	@keyframes fadeinMain {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+	}
+
+	&__overlay {
+	position: relative;
+	overflow: hidden;
+	
+
+	@keyframes fadeinMainOverlay {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+	}
+	
+		&:before {
+			content: ("");
+			position: absolute;
+			top:0;
+			z-index:200;
+			width:100%;
+			height:100vw;
+			background:rgba(#222,.5);
+			animation: fadeinMainOverlay 1.8s;
+		}
+
+	}
+}
+

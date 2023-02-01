@@ -1,0 +1,104 @@
+
+
+@import "./modules/normalize.css";
+@import "./modules/flexboxgrid.css";
+@import "./modules/jquery.fancybox.min.css";
+
+
+/* Config */
+@import "./config/_vars.scss";
+@import "./config/_mixins.scss";
+@import "./config/_fonts.scss";
+@import "./config/_theme.scss";
+@import "./config/_wp.scss";
+
+ /* u- Utils */
+@import "./utils/u-ratio.scss";
+
+/*Partials*/
+@import "./partials/_header.scss";
+@import "./partials/_main.scss"; 
+@import "./partials/_footer.scss";
+
+/* s- States JS*/
+@import "./state/s-general-js.scss";
+
+/* Elements */
+@import "./elements/_e-general.scss";
+
+/* // Vendor */
+@import "./vendor/_v-fancybox-is-modal.scss";
+@import "./vendor/woocommerce.scss";
+@import "./vendor/_woosw-list.scss";
+
+
+/* // Componenets */
+@import "./components/_c-slider-home.scss";
+@import "./components/_c-banners-acces.scss";
+@import "./components/_c-products.scss";
+@import "./components/_c-newsletter-momma.scss";
+@import "./components/_c-products-top.scss"; 
+@import "./components/_c-module-instagram.scss";
+@import "./components/_c-page.scss";
+@import "./components/_c-icones-serveis.scss";
+@import "./components/_c-category-products.scss";
+@import "./components/_c-single-product.scss";
+
+@import "./components/_c-btn-share.scss";
+@import "./components/_c-btn-shop-product.scss";
+@import "./components/_c-product-gal.scss";
+@import "./components/_c-table-tarifes.scss";
+
+@import "./components/_c-contacte.scss";
+@import "./components/_c-pop-up-enter.scss";
+
+
+
+
+/*
+Demos Tests resets css Links : https://codepen.io/chriscoyier/pen/JpLzjd
+
+Guía - Estructura Scss , 1.3v - 16sep2019
+
+0    Load Vendors ( Packageds , Node_modules / Bower / otros ... fuera de la carpeta scss generalmente )
+
+1    Config       ( Vars, Reset css, Mixins , Theme, fonts, grids, etc...)
+
+2 u- Utils        ( Utilidades css , ejemplo calcular 16:9 en un iframe, etc ...)
+
+3 e- Element  UI  ( Elementos General , no es necesario ningun arxivo relacionado de html o php)
+	u- Elements UI  ( Elementos UI o carecteristicas de un elmento , no es necesario ningun arxivo relacionado de html o php)
+
+4    Partials     ( Elementos HTML padres del Doom : Header, Footer, Main, Body ) =>'Incluir tambien ID igual que el nombre de la clase'.
+
+5 s- State        ( Estados Javascript , preferiable con s-js-'Elemento' , 
+										si se puede con ID si es solo un elmento para que el 
+										navegador no busque entre todo el arbol del Doom .
+										Los Eventos del estado deven de tenr la misma 
+										referencia .ejemplo : #s-js-eventClick__NOMNRE-COMPONENTE ,
+										variantes de activación sin estado como clase:
+										is-active, is-mobile , is-stick , is-full , is-....
+									)
+	   
+6 v- Vendors      ( Vendors modificadores ) => Recomnedación para 
+									no incluir !important en los modificadores de Vendor, 
+									utilizar el ID del partial, ejemplo #header,#footer,#main .
+									El nombre del archivo:;  
+									ejemplo: v-NOMBRE-PLUGIN--modified
+									)
+
+7 c- Components   (El arxivo relacionado también deve de incluir el prefijo 'c-')
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+

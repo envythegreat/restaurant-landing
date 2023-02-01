@@ -1,0 +1,23 @@
+.c-table-tarifes {
+	border:1px solid #EFEFEF;
+	border-collapse: collapse;
+	max-width: 100%;
+
+	td {
+		text-align: center;
+		min-width: 100px;
+		border-bottom: 1px solid #EFEFEF;
+	}
+
+	&__head {
+		tr {
+			background-color: $branding_green;
+			border-collapse: 0;
+			td {
+
+				border:1px solid #FFF;
+				text-align: center;
+			}
+		}
+	}
+}
