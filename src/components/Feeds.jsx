@@ -2,7 +2,7 @@ import React from "react";
 import "@assets/components/insta.scss"
 const Feeds = () => {
   return (
-    <section className="c-module-instagram">
+    <section className="c-module-instagram" id="Social">
       <header>
         <h2>SEGUEIX-NOS A L’ INSTAGRAM</h2>
 

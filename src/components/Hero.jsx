@@ -1,10 +1,11 @@
 import React from "react";
 import Fancybox from "./FancyBox";
-
+import lavega from "@assets/img/lavega.jpg"
+import food1 from "@assets/img/food1.jpg"
 
 const Hero = () => {
   return (
-    <section className="c-page">
+    <section className="c-page" id="Sobre">
       <header className="c-page__header">
         <h1 className="c-page__header-title">Sidreria / Restaurant</h1>
         <p>Gaudeix d’un bon àpat</p>
@@ -12,11 +13,11 @@ const Hero = () => {
         <picture className="c-page__banner-top">
           <source
             media="(min-width: 2000px)"
-            srcSet="https://mooma.cat/wp-content/themes/mooma/assets/img/sidreria-restaurant/2x/sidreria-restaurant__banner-top2021@2x.jpg"
+            srcSet={lavega}
           />
 
           <img
-            src="https://mooma.cat/wp-content/themes/mooma/assets/img/sidreria-restaurant/1x/sidreria-restaurant__banner-top2021@1x.jpg"
+            src={lavega}
             alt="Sidreria / Restaurant"
           />
         </picture>
@@ -25,7 +26,7 @@ const Hero = () => {
       <div className="c-page__container">
         <div className="c-page__container-row c-page__container-row--90">
           <div className="c-page__grid-sm-50">
-            <h1>
+            <h1 style={{color:'#D58E34'}}>
               Descobreix la sidreria Mooma, un espai únic en un entorn
               immillorable.
             </h1>
@@ -53,11 +54,12 @@ const Hero = () => {
           </div>
 
           <div className="c-page__grid-sm-50">
-            <div className="c-page__width-small c-page__width-small--sepa-figures">
-              <figure>
+            <div className="c-page__width-small c-page__width-small--sepa-figures" >
+              <figure >
                 <img
-                  src="https://mooma.cat/wp-content/themes/mooma/assets/img/sidreria-restaurant/1x/sidreria-restaurant__figure@1x.jpg"
+                  src={food1}
                   alt="Mooma entrada restaurant"
+                  style={{borderRadius: '10px', boxShadow:'0 0 10px 0 rgba(0,0,0,0.5)'}}
                 />
               </figure>
             </div>
@@ -66,7 +68,7 @@ const Hero = () => {
       </div>
 
       <section className="c-icones-serveis" id="js-c-icones-serveis">
-        <ol>
+        <ol id="Menu">
           <li>
             <a data-fancybox="gallery" href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-164.jpg">
               <i>
@@ -503,7 +505,7 @@ const Hero = () => {
             </a>
           </li>
 
-          <li>
+          {/* <li>
             <a
               target="_blank"
               href="https://mooma.cat/wp-content/uploads/2023/01/Calendari-2023.pdf"
@@ -557,7 +559,7 @@ const Hero = () => {
               <p></p>
               <p>2023</p>
             </a>
-          </li>
+          </li> */}
         </ol>
       </section>
 

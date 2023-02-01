@@ -2,10 +2,10 @@ import React from "react";
 
 const NewsLetters = () => {
   return (
-    <section class="c-newsletter-momma">
-      <div class="c-newsletter-momma__container">
-        <div class="c-newsletter-momma__container-row">
-          <div class="c-newsletter-momma__header">
+    <section className="c-newsletter-momma">
+      <div className="c-newsletter-momma__container">
+        <div className="c-newsletter-momma__container-row">
+          <div className="c-newsletter-momma__header">
             <header>
               <h2>NEWSLETTER MOOMA </h2>
               <p>
@@ -16,8 +16,8 @@ const NewsLetters = () => {
             </header>
           </div>
 
-          <div class="c-newsletter-momma__form">
-            <form action="javascript:alert('Estem desenvolupant el sistema d\'inscripccó a la nostra newsletter del web de MOOMA, disculpis les molèsties.')">
+          <div className="c-newsletter-momma__form">
+            <form onClick={() => alert('Estem desenvolupant el sistema d\'inscripccó a la nostra newsletter del web de MOOMA, disculpis les molèsties.')}>
               <label>
                 <p>Escriu el teu e-mail</p>
                 <input type="" name="" placeholder="Escriu el teu e-mail" />

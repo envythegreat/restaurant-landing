@@ -2,59 +2,59 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer class="footer" id="footer">
-      <div class="footer__container">
-        <div class="footer__container-row">
-          <div class="footer__col footer__col--left">
-            <ul class="footer__text">
+    <footer className="footer" id="footer">
+      <div className="footer__container">
+        <div className="footer__container-row">
+          <div className="footer__col footer__col--left">
+            <ul className="footer__text">
               <li>
                 <a
-                  href="https://mooma.cat/politica-de-privadesa/"
-                  title="https://mooma.cat/politica-de-privadesa/"
+                  href="#"
+                  title="#"
                 >
                   Política de privadesa
                 </a>
               </li>
               <li>
                 <a
-                  href="https://mooma.cat/avis-legal/"
-                  title="https://mooma.cat/avis-legal/"
+                  href="#"
+                  title="#"
                 >
                   Avís legal
                 </a>
               </li>
               <li>
                 <a
-                  href="https://mooma.cat/politica-de-cookies/"
-                  title="https://mooma.cat/politica-de-cookies/"
+                  href="#"
+                  title="#"
                 >
                   Política de cookies
                 </a>
               </li>
               <li>
                 <a
-                  href="https://mooma.cat/condicions-generals-de-compra/"
-                  title="https://mooma.cat/condicions-generals-de-compra/"
+                  href="#"
+                  title="#"
                 >
                   Condicions generals de compra
                 </a>
               </li>
             </ul>
-            <ul class="footer__text">
+            <ul className="footer__text">
               <li rel="license">
                 <abbr title="Tots els drets resertvat © 2019 Mooma">
-                  © 2023 Mooma{" "}
+                  © 2023 Masia Lavega{" "}
                 </abbr>
               </li>
               <li>
-                <a href="https://mooma.cat/contacte/" title="Contacta’ns">
+                <a href="#" title="Contacta’ns">
                   Contacta’ns
                 </a>
               </li>
 
               <li>
                 <a
-                  href="https://mooma.cat/credits/"
+                  href="#"
                   title="Crèdits disseny web"
                 >
                   Crèdits
@@ -62,12 +62,12 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div class="footer__col footer__col--right">
-            <aside class="footer__social">
+          <div className="footer__col footer__col--right">
+            <aside className="footer__social">
               <ol>
                 <li>
                   <a
-                    href="https://es-es.facebook.com/sidreriamooma/"
+                    href="#"
                     target="_blank"
                     title="Anar a Facebook de Mooma"
                   >
@@ -82,7 +82,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://twitter.com/sidreriamooma"
+                    href="#"
                     target="_blank"
                     title="Anar a Twitter de Mooma"
                   >
@@ -97,7 +97,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.youtube.com/channel/UCUpVeVqgaHTxAxmY3EDE9iQ"
+                    href="#"
                     title="Anar a Youtube"
                     target="_blank"
                   >
@@ -112,7 +112,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.instagram.com/mooma/"
+                    href="#"
                     target="_blank"
                     title="Anar a Instagram"
                   >
@@ -130,29 +130,14 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <section class="c-pop-up-enter" id="js-c-pop-up-enter" data-modal="true">
-        <div class="c-pop-up-enter__super">
+      <section className="c-pop-up-enter" id="js-c-pop-up-enter" data-modal="true">
+        <div className="c-pop-up-enter__super">
           <header>
             <h2>
               Quina edat tens per
-              <br /> beure’t una Mooma
+              <br /> beure’t una Masia Lavega
             </h2>
           </header>
-          <div class="c-pop-up-enter__container">
-            <button
-              data-fancybox-close=""
-              class="e-btn__popup e-btn__popup--inline-block btn"
-              id="js-c-pop-up-enter__is-event-click"
-            >
-              + 18 anys
-            </button>
-            <button
-              onclick="window.open('https://google.com','_self')"
-              class="e-btn__popup e-btn__popup--inline-block btn"
-            >
-              - 18 anys
-            </button>
-          </div>
         </div>
       </section>
     </footer>

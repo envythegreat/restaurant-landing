@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from "@assets/img/logo.jpeg";
 
 const Header = () => {
   const navItems = [
@@ -19,45 +19,37 @@ const Header = () => {
               <ul>
                 <li>
                   <p>
-                    <a href="https://mooma.cat" className="item-ca">
+                    <a href="h#" className="item-ca">
                       CAT
-                    </a>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <a href="https://mooma.cat/es" className="item-es">
-                      ESP
-                    </a>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <a href="https://mooma.cat/en" className="item-en">
-                      ENG
                     </a>
                   </p>
                 </li>
               </ul>
             </nav>
-            <div className="header__account">
+            {/* <div className="header__account">
               <p>
                 <a
-                  href="https://mooma.cat/el-meu-compte/"
+                  href="#"
                   title="Login / Register"
                 >
                   EL MEU COMPTE
                 </a>
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="header__container">
-          <nav className="header__menu header__menu--is-page" id="js-header__menu">
+          <figure className="header__logo">
+            <img src={logo} alt="logo" />
+          </figure> 
+          <nav
+            className="header__menu header__menu--is-page"
+            id="js-header__menu"
+          >
             <ul className="items">
               <div className="menu">
                 <ul>
-                  <li className="page_item page-item-6">
+                  {/* <li className="page_item page-item-6">
                     <a
                       href="https://mooma.myrestoo.net/ca/reservar"
                       rel="noopener"
@@ -66,8 +58,8 @@ const Header = () => {
                     >
                       Reserves
                     </a>
-                  </li>
-                  <li className="page_item page-item-472">
+                  </li> */}
+                  {/* <li className="page_item page-item-472">
                     <a
                       href="https://mooma.myrestoo.net/ca/tienda"
                       rel="noopener"
@@ -79,7 +71,7 @@ const Header = () => {
                   </li>
                   <li className="page_item page-item-8">
                     <a href="https://mooma.cat/mooma/">Mooma</a>
-                  </li>
+                  </li> */}
                   <li className="page_item page-item-10 current_page_item">
                     <a
                       href="https://mooma.cat/sidreria-restaurant/"
@@ -89,15 +81,13 @@ const Header = () => {
                     </a>
                   </li>
                   <li className="page_item page-item-13">
-                    <a href="https://mooma.cat/productes-botiga/">Productes</a>
+                    <a href="#Sobre">Sobre nosaltres</a>
                   </li>
                   <li className="page_item page-item-17">
-                    <a href="https://mooma.cat/visitans/">Visita’ns</a>
+                    <a href="#Menu">Menú</a>
                   </li>
                   <li className="page_item page-item-19">
-                    <a href="https://mooma.cat/fructicultura-de-precisio/">
-                      I+D
-                    </a>
+                    <a href="#Social">Social</a>
                   </li>
                   <li className="page_item page-item-21">
                     <a href="https://mooma.cat/contacte/">Contacte</a>
@@ -163,7 +153,10 @@ const Header = () => {
               </li>
 
               <li className="e-only-mobile">
-                <button className="header__btn-mobile" id="js-header__btn-mobile">
+                <button
+                  className="header__btn-mobile"
+                  id="js-header__btn-mobile"
+                >
                   <span></span>
                   <span></span>
                   <span></span>
