@@ -7,7 +7,7 @@ const NewsLetters = () => {
         <div className="c-newsletter-momma__container-row">
           <div className="c-newsletter-momma__header">
             <header>
-              <h2>NEWSLETTER MOOMA </h2>
+              <h2>NEWSLETTER MASIA LA VEGA </h2>
               <p>
                 <small>
                   Vols estar al dia dels nostres productes i novetats?

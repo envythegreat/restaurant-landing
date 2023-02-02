@@ -1,7 +1,7 @@
 import React from "react";
 import Fancybox from "./FancyBox";
-import lavega from "@assets/img/lavega.jpg"
-import food1 from "@assets/img/food1.jpg"
+import lavega from "@assets/img/lavega.jpg";
+import food1 from "@assets/img/food1.jpg";
 
 const Hero = () => {
   return (
@@ -11,36 +11,28 @@ const Hero = () => {
         <p>Gaudeix d’un bon àpat</p>
 
         <picture className="c-page__banner-top">
-          <source
-            media="(min-width: 2000px)"
-            srcSet={lavega}
-          />
+          <source media="(min-width: 2000px)" srcSet={lavega} />
 
-          <img
-            src={lavega}
-            alt="Sidreria / Restaurant"
-          />
+          <img src={lavega} alt="Sidreria / Restaurant" />
         </picture>
       </header>
 
       <div className="c-page__container">
         <div className="c-page__container-row c-page__container-row--90">
           <div className="c-page__grid-sm-50">
-            <h1 style={{color:'#D58E34'}}>
-              Descobreix la sidreria Mooma, un espai únic en un entorn
-              immillorable.
+            <h1 style={{ color: "#D58E34" }}>
+              Descobreix masia la vega, un espai únic en un entorn immillorable.
             </h1>
             <p>
               <b />
-              Mooma
+              masia la vega
               <b />
-              &nbsp;està situada al bell mig de l’Empordà, als afores de
-              Palau-sator. Es tracta d’una masia envoltada de pomeres amb espai
-              tant interior com exterior. La carta ofereix una gran varietat
-              d’opcions:
+              &nbsp;ubicada en Sant Sadurní d’Anoia, Catalunya, pretende ser un
+              modelo de vida sostenible en armonía con la naturaleza,
+              aprovechando todos los recursos que nos brinda.
               <br />
-              amanides, tapes, carns a la brasa… hi ha plats per tots els
-              gustos!
+              Ofrece un entorno natural agradable y acogedor, productos de
+              temporada, km0 y de elaboración propia.
               <br />
               També compta amb opcions aptes per vegetarians i vegans, així com
               persones celíaques o intolerants. Però no només és un restaurant,
@@ -48,18 +40,22 @@ const Hero = () => {
               temporada d’estiu, d’un còctel al seu Jardí.
             </p>
             <p>
-              *Si sou més de 6 persones i voleu fer menú, indiqueu-ho quan
-              reserveu.
+              Funciona a base de energías renovables como la eólica y la solar,
+              utiliza un filtrado natural para aprovechar el agua de lluvia para
+              regar los jardines y cuenta con un huerto ecológico. 
             </p>
           </div>
 
           <div className="c-page__grid-sm-50">
-            <div className="c-page__width-small c-page__width-small--sepa-figures" >
-              <figure >
+            <div className="c-page__width-small c-page__width-small--sepa-figures">
+              <figure>
                 <img
                   src={food1}
                   alt="Mooma entrada restaurant"
-                  style={{borderRadius: '10px', boxShadow:'0 0 10px 0 rgba(0,0,0,0.5)'}}
+                  style={{
+                    borderRadius: "10px",
+                    boxShadow: "0 0 10px 0 rgba(0,0,0,0.5)",
+                  }}
                 />
               </figure>
             </div>
@@ -70,7 +66,11 @@ const Hero = () => {
       <section className="c-icones-serveis" id="js-c-icones-serveis">
         <ol id="Menu">
           <li>
-            <a data-fancybox="gallery" href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-164.jpg">
+            <a
+              data-fancybox="gallery"
+              href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-164.jpg"
+              style={{borderColor: "#d58e34"}}
+            >
               <i>
                 <svg
                   className="svg_espais"
@@ -80,7 +80,7 @@ const Hero = () => {
                   <defs>
                     <style>
                       {
-                        "\r\n      .svg_espais .a {\r\n        fill: none;\r\n        stroke: #303030;\r\n        stroke-miterlimit: 10;\r\n        stroke-width: 2px;\r\n      }\r\n    "
+                        "\r\n      .svg_espais .a {\r\n        fill: none;\r\n        stroke: #d58e34;\r\n        stroke-miterlimit: 10;\r\n        stroke-width: 2px;\r\n      }\r\n    "
                       }
                     </style>
                   </defs>
@@ -92,305 +92,305 @@ const Hero = () => {
               <p>Espai</p>
             </a>
             <Fancybox options={{ infinite: false }}>
-            <div id="js-gal__c-icones-serveis">
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-194.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-199.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-202.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-219.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-239.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-243.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-248.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-263.jpg"
-                data-fancybox="gallery"
-              ></a>
+              <div id="js-gal__c-icones-serveis">
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-194.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-199.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-202.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-219.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-239.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-243.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-248.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/espais/mooma-263.jpg"
+                  data-fancybox="gallery"
+                ></a>
 
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/Fotolia_176117996_Subscription_Monthly_XXL.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_1058.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0047.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0142.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0066.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/laresclosa-e1479920665697.png"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/massaulot-e1479921179274-1.png"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/gironafruits-e1479920700820.png"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0166.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0139.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0168.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0078.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0137.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0171.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0072.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0048.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0170.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0100.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0167.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0059.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0161.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0157.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0110.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0114.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/massaulot-e1479921179274-1.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0165.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0177.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_1478.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0112.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0328.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0160.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/DSC_6316.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/simbol.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0308.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0080.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/aiguardent.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_1467.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/PINK-ROSEE.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_1415.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/insta03.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/insta05.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_1549.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/insta04.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/insta02.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/insta01.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0141.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0314.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0151.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0135.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0224.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/gironafruits-e1479920700820.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0184.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0183.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0081.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0147.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0113.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/FUJI-1.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/laresclosa-e1479920665697.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0044.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_1471.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0201.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0089.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0138.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0131.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0108.jpg"
-                data-fancybox="gallery"
-              ></a>
-              <a
-                href="https://mooma.cat/wp-content/themes/mooma/uploads/big/DSC_8617-2.jpg"
-                data-fancybox="gallery"
-              ></a>
-            </div>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/Fotolia_176117996_Subscription_Monthly_XXL.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_1058.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0047.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0142.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0066.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/laresclosa-e1479920665697.png"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/massaulot-e1479921179274-1.png"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/gironafruits-e1479920700820.png"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0166.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0139.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0168.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0078.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0137.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0171.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0072.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0048.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0170.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0100.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0167.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0059.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0161.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0157.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0110.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0114.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/massaulot-e1479921179274-1.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0165.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0177.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_1478.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0112.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0328.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0160.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/DSC_6316.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/simbol.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0308.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0080.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/aiguardent.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_1467.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/PINK-ROSEE.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_1415.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/insta03.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/insta05.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_1549.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/insta04.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/insta02.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/insta01.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0141.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0314.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0151.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0135.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0224.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/gironafruits-e1479920700820.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0184.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0183.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0081.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0147.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0113.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/FUJI-1.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/laresclosa-e1479920665697.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0044.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_1471.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0201.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0089.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0138.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0131.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/IMG_0108.jpg"
+                  data-fancybox="gallery"
+                ></a>
+                <a
+                  href="https://mooma.cat/wp-content/themes/mooma/uploads/big/DSC_8617-2.jpg"
+                  data-fancybox="gallery"
+                ></a>
+              </div>
             </Fancybox>
           </li>
 
@@ -406,7 +406,7 @@ const Hero = () => {
                   <defs>
                     <style>
                       {
-                        "\r\n      .svg__menu .a {\r\n        fill: none;\r\n        stroke: #303030;\r\n        stroke-miterlimit: 10;\r\n        stroke-width: 2px;\r\n      }\r\n    "
+                        "\r\n      .svg__menu .a {\r\n        fill: none;\r\n        stroke: #d58e34;\r\n        stroke-miterlimit: 10;\r\n        stroke-width: 2px;\r\n      }\r\n    "
                       }
                     </style>
                   </defs>
@@ -425,15 +425,12 @@ const Hero = () => {
                 </svg>
               </i>
               {/* <!-- <p></p> --> */}
-              <p>Carta i Menús per a Grups</p>
+              <p>Menús</p>
             </a>
           </li>
 
           <li>
-            <a
-              target="_blank"
-              href="#"
-            >
+            <a target="_blank" href="#">
               <i>
                 <svg
                   className="svg__pastis"
@@ -451,7 +448,7 @@ const Hero = () => {
                   <defs>
                     <style>
                       {
-                        "\r\n      .svg__pastis .a {\r\n        fill: none;\r\n        stroke: #313131;\r\n        stroke-miterlimit: 10;\r\n        stroke-width: 2px;\r\n      }\r\n    "
+                        "\r\n      .svg__pastis .a {\r\n        fill: none;\r\n        stroke: #d58e34;\r\n        stroke-miterlimit: 10;\r\n        stroke-width: 2px;\r\n      }\r\n    "
                       }
                     </style>
                   </defs>
@@ -459,15 +456,12 @@ const Hero = () => {
                   <path d="M129.5,87.2c-6-3.2-15.3-8.2-24.5-13.4c-0.4-3.3-2.6-6.1-5.9-6.8c0.6-1.5,2-3.9,5.2-4c0.8,0,1.4-0.7,1.3-1.4 c0-0.8-0.7-1.4-1.4-1.3c-4.7,0.3-7.1,4-7.8,6.8c-1.4,0.3-2.6,0.8-3.6,1.7c-6.3,2.9-22,10-24.4,11.1c-1.1,0.6-2.4,1.8-2.4,3.2v32.6 c-0.1,1.3,1.1,2.4,2.6,2.5l60.6,7.2h0.1c1.5,0,2.8-1.3,2.8-2.8V90.1C132.1,88.6,130.7,87.9,129.5,87.2L129.5,87.2z M97.4,69.5 c2.5,0,4.7,2.1,4.7,4.7c0,2.6-2.2,4.6-4.7,4.6c-2.5,0-4.7-2.1-4.7-4.7C92.7,71.4,94.8,69.5,97.4,69.5L97.4,69.5z M90.2,72.5 c-0.1,0.6-0.3,1.1-0.3,1.7c0,4.2,3.3,7.5,7.5,7.5c3.2-0.1,6-2.2,7-5c5.6,3.2,12.5,7,17.4,9.8L73,80.6L90.2,72.5z M128.2,122.7 l-58.7-7.2c-0.6,0-0.8-0.4-0.8-0.8v-8.9c3.1-0.7,4-0.1,5.2,0.6c1,0.6,2.2,1.4,4.5,1.4c0.6,0,1.3,0,2.1-0.1h0.3 c3.6-1,4.6-0.4,5.9,0.3c1,0.6,2.2,1.4,4.5,1.4c0.6,0,1.3,0,2.1-0.1h0.3c3.6-1,4.6-0.4,5.9,0.3c1,0.6,2.2,1.4,4.5,1.4 c0.6,0,1.3,0,2.1-0.1h0.3c3.6-1,4.6-0.4,5.9,0.3c1,0.6,2.2,1.4,4.5,1.4c0.6,0,1.3,0,2.1-0.1h0.3c3.6-1,4.6-0.4,5.9,0.3 c1,0.6,2.2,1.4,4.5,1.4l0.1,8.1C129.2,122.4,128.8,122.8,128.2,122.7L128.2,122.7z M129.2,110.7c-2,0.1-2.6-0.3-3.6-1 c-1.8-1.1-3.6-1.8-7.9-0.7c-2.6,0.4-3.5-0.1-4.6-0.8c-1.8-1.1-3.6-1.8-7.9-0.7c-2.6,0.4-3.5-0.1-4.6-0.8c-1.8-1.1-3.6-1.8-7.9-0.7 c-2.6,0.4-3.5-0.1-4.6-0.8c-1.8-1.1-3.6-1.8-7.9-0.7c-2.6,0.4-3.5-0.1-4.6-0.8c-1.7-1-3.2-1.7-6.5-1V95c3.1-0.7,4-0.1,5.2,0.6 c1,0.6,2.2,1.4,4.5,1.4c0.6,0,1.3,0,2.1-0.1h0.3c3.6-1,4.6-0.4,5.9,0.3c1,0.6,2.2,1.4,4.5,1.4c0.6,0,1.3,0,2.1-0.1h0.3 c3.6-1,4.6-0.4,5.9,0.3c1,0.6,2.2,1.4,4.5,1.4c0.6,0,1.3,0,2.1-0.1h0.3c3.6-1,4.6-0.4,5.9,0.3c1,0.6,2.2,1.4,4.5,1.4 c0.6,0,1.3,0,2.1-0.1h0.3c3.6-1,4.6-0.4,5.9,0.3c1,0.6,2.2,1.4,4.5,1.4V110.7z M129.2,100.1c-2,0.1-2.8-0.3-3.8-1 c-1.8-1.1-3.6-1.8-7.9-0.7c-2.6,0.4-3.5-0.1-4.6-0.8c-1.8-1.1-3.6-1.8-7.9-0.7c-2.6,0.4-3.5-0.1-4.6-0.8c-1.8-1.1-3.6-1.8-7.9-0.7 c-2.6,0.4-3.5-0.1-4.6-0.8c-1.8-1.1-3.6-1.8-7.9-0.7c-2.6,0.4-3.5-0.1-4.6-0.8c-1.7-1-3.2-1.7-6.5-1V84c0-0.7,0.7-1.3,1.4-1.3 l58.2,7.2c0.6,0.1,0.8,0.4,0.8,1V100.1z M129.2,100.1" />
                 </svg>
               </i>
-              <p>Pastissos per encàrrec</p>
+              <p>Carta</p>
             </a>
           </li>
 
           <li>
-            <a
-              target="_blank"
-              href="#"
-            >
+            <a target="_blank" href="#">
               <i>
                 <svg
                   className="svg__chuleton"
@@ -477,7 +471,7 @@ const Hero = () => {
                   <defs>
                     <style>
                       {
-                        "\r\n      .svg__chuleton .a {\r\n        fill: none;\r\n        stroke: #303030;\r\n        stroke-miterlimit: 10;\r\n        stroke-width: 2px;\r\n      }\r\n    "
+                        "\r\n      .svg__chuleton .a {\r\n        fill: none;\r\n        stroke: #d58e34;\r\n        stroke-miterlimit: 10;\r\n        stroke-width: 2px;\r\n      }\r\n    "
                       }
                     </style>
                   </defs>
@@ -501,7 +495,7 @@ const Hero = () => {
                 </svg>
               </i>
               {/* <!-- <p></p> --> */}
-              <p>Menú Calçotada</p>
+              <p>botiga</p>
             </a>
           </li>
 
@@ -564,7 +558,7 @@ const Hero = () => {
       </section>
 
       <button
-        onClick={() => window.open('#','_self')}
+        onClick={() => window.open("#", "_self")}
         className="e-btn__reserva"
       >
         RESERVAR TAULA
