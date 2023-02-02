@@ -582,11 +582,8 @@ const Hero = () => {
               id="js-c-page__banner-bottom-description-title"
             >
               <p>
-                PLATS FRESCOS PER COMPARTIR,
+                PLATS FRESCOS PER COMPARTIR
                 <br />
-                CARN A LA BRASA I MOLT MÉS,
-                <br />
-                ENVOLTATS DE POMERES AL BELL MIG DE L’EMPORDÀ.
               </p>
             </h3>
           </div>

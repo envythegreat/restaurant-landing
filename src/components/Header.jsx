@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <>
       <header className="header" id="header">
-        <div className="header__top" style={{backgroundColor:'#D58E34'}}>
+        <div className="header__top" style={{backgroundColor:'#ffe58'}}>
           <div className="header__top-container">
             <nav className="header__top-lang header__top-lang--ca">
               <ul>
@@ -40,7 +40,7 @@ const Header = () => {
         </div>
         <div className="header__container">
           <figure className="header__logo">
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo"  style={{borderRadius:'10%'}}/>
           </figure> 
           <nav
             className="header__menu header__menu--is-page"
