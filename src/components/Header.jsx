@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <>
       <header className="header" id="header">
-        <div className="header__top" style={{backgroundColor:'#ffe58'}}>
+        <div className="header__top" style={{backgroundColor:'#e0ea7d'}}>
           <div className="header__top-container">
             <nav className="header__top-lang header__top-lang--ca">
               <ul>
