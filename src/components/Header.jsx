@@ -77,7 +77,7 @@ const Header = () => {
                       href="#"
                       aria-current="page"
                     >
-                       Restaurant
+                       Masia / Restaurant
                     </a>
                   </li>
                   <li className="page_item page-item-13">
